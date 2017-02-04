@@ -7,10 +7,11 @@ module.exports = class Eval {
   }
 
   async run(message, args) {
+    var arg = message.content.split(" ").slice(1).join(' ')
     try {
       message.channel.sendEmbed({
       color: 0x32CD32,
-      description: `\`OUTPUT\`\n\`\`\`js\n${eval(args)}\n\`\`\``
+      description: `\`OUTPUT\`\n\`\`\`js\n${eval(arg)}\n\`\`\``
     })
   } catch(e) {
     message.channel.sendEmbed({

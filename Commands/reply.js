@@ -24,7 +24,7 @@ module.exports = class Reply {
                           icon_url: `${msgFilter.author.avatarURL}`,
                           url: `https://github.com/jaacks/selfcord`
                       },
-                      footer: {icon_url: `../logo.png`, text: `Message sent at ${msgFilter.createdAt.toUTCString()} | Powered by SelfCord`}
+                      footer: {icon_url: `https://cdn.rawgit.com/jaacks/SelfCord/32263bc2/logo.png`, text: `Message sent at ${msgFilter.createdAt.toUTCString()} | Powered by SelfCord`}
                   })
                 })
 

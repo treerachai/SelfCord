@@ -19,7 +19,7 @@ module.exports = class Events {
             if (message.author.id !== config.userID) return;
                 if (message.content.startsWith(config.prefix)) {
                     let command = message.content.substr(config.prefix.length).split(" ")[0];
-                    let args = message.content.substr(config.prefix.length + command.length);
+                    let args = message.content.substr(config.prefix.length + command.length + 1).split(' ')
 
                     if (this.client.commands.get(command)) {
                         try {

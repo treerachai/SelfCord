@@ -10,7 +10,7 @@ module.exports = class Reply {
         var arg = message.content.split(" ")
         arg = arg.slice(2).join(' ')
         let id = args[0];
-        console.log(id)
+        //console.log(id)
         message.channel.fetchMessages({
             around: id
         }).then(messages => {
@@ -24,7 +24,7 @@ module.exports = class Reply {
                           icon_url: `${msgFilter.author.avatarURL}`,
                           url: `https://github.com/jaacks/selfcord`
                       },
-                      footer: {icon_url: this.client.user.avatarURL, text: `Message sent at ${msgFilter.createdAt.toUTCString()} | Powered by SelfCord`}
+                      footer: {icon_url: `../logo.png`, text: `Message sent at ${msgFilter.createdAt.toUTCString()} | Powered by SelfCord`}
                   })
                 })
 

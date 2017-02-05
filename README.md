@@ -13,7 +13,8 @@ Put this is the file:
 }
 ```
 After that, go ahead and run `node --harmony index.js` and you'll be good to go!
-I'll be constantly updating this bot.
+
+I'll be constantly updating this bot, so continue to check back for more commands!
 
 If you need anything else, join the support server:
 https://discord.gg/Y9ND4Ku

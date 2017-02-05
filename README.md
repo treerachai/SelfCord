@@ -3,8 +3,9 @@ A very easy to use discord.js Selfbot.
 
 ##Usage
 
-First create a file named `config.json`. This'll be used to start the bot.
-Put this is the file:
+First, create a file named `config.json`. This'll be used to start the bot.
+
+Put this in the file:
 ```
 {
   "prefix": "s!",

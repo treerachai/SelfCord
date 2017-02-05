@@ -18,3 +18,5 @@ const client = new class Client extends Discord.Client {
 
 
 }
+
+process.on('unhandledRejection', err => console.error(`Uncaught Promise Rejection\n${err}`))

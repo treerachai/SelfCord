@@ -18,3 +18,8 @@ I'll be constantly updating this bot, so continue to check back for more command
 
 If you need anything else, join the support server:
 https://discord.gg/Y9ND4Ku
+
+
+##Contributing
+
+Feel free to add more commands by submitting a PR. I don't mind :D
